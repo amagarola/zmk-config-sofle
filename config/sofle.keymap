@@ -31,7 +31,7 @@
         lang: lang {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp SPACE>, <&macro_tap>;
+            bindings = <&kp LEFT_WIN>, <&macro_tap>, <&kp SPACE>;
 
             label = "lang";
         };
