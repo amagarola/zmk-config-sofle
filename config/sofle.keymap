@@ -28,11 +28,12 @@
     };
 
     macros {
-        lang: new_macro {
+        lang: lang {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp SPACE>;
-            label = "NEW_MACRO";
+            bindings = <&kp LEFT_WIN &kp SPACE>, <&macro_tap>;
+
+            label = "lang";
         };
     };
 
